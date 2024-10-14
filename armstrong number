@@ -8,12 +8,14 @@ num=n;
 while(n>0)
 {
  r=n%10;
- s+=rem*rem*rem;
+ s+=r*r*r;
  n=n/10;
 }
+printf("sum of cubes of digits %d",s);
+{
 if(num==s)
-printf("%d is a armstrong number",s);
+printf("%d is a armstrong number",num);
 else
-printf("%d is not a armstrong number",s);
+printf("%d is not a armstrong number",num);
 }
- 
+} 
