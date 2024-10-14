@@ -1,0 +1,29 @@
+#include<stdio.h>
+void main()
+{
+  int unit;
+  float tot;
+  printf("enter the total units consumed");
+  scanf("%d",&unit)
+  if(unit<=50)
+  {
+  tot=unit*0.50
+  printf("total bill is %f",tot);
+  }
+  else if(unit<=150)
+  {
+  tot=unit*0.75;
+  printf("total bill is %f",tot);
+  }
+  else if(unit<=250)
+  {
+  tot=unit*1.20;
+  printf("total bill is %f",tot);
+  }
+  else
+  {
+    tot=unit*1.50;
+    printf("total bill is %f",tot);
+  }
+}
+  `
