@@ -1,0 +1,36 @@
+#include<stdio.h>
+void main()
+{
+ int a,b,c,d,big;
+ printf("enter the numbers:");
+ scanf("%d %d %d %d",&a,&b,&c,&d);
+ if(a>b)
+ {
+   if(a>c)
+   {
+     if(a>d)
+       big=a;
+     else
+       big=d;
+    }
+else
+    {
+      if(c>d)
+        big=c;
+      else
+        big=d;
+     }
+}
+else
+{
+   if(b>c)
+   {
+     if(b>d)
+       big=b;
+     else
+       big=d;
+    }
+}
+ptintf("\n the biggest number is %d",big)
+}
+   
